@@ -44,3 +44,28 @@ print("Predicted Exam Scores using Regression Line:")
 for x in study_hours:
     y_pred = a + b * x
     print(f"Study Hours: {x}, Predicted Score: {y_pred:.2f}")
+
+
+#output
+STEP 1: Calculate Means
+Mean of Study Hours (x̄) = 5.500
+Mean of Exam Scores (ȳ) = 64.375
+
+STEP 2: Correlation Coefficient Calculation
+Σ(x - x̄)(y - ȳ) = 157.000
+Σ(x - x̄)² = 42.000
+Σ(y - ȳ)² = 589.875
+Correlation Coefficient (r) = 0.9674
+
+STEP 3: Regression Line Calculation
+Slope (b) = 3.738
+Intercept (a) = 43.797
+
+Regression Line: y = 43.797 + 3.738x
+
+Predicted Exam Scores using Regression Line:
+Study Hours: 2, Predicted Score: 51.27
+Study Hours: 3, Predicted Score: 55.01
+Study Hours: 4, Predicted Score: 58.75
+...
+Study Hours: 9, Predicted Score: 77.43
